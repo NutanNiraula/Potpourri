@@ -49,6 +49,8 @@
 		2D96306A28538C6B0091E439 /* PotpourriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotpourriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D96306E28538C6B0091E439 /* PotpourriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotpourriUITests.swift; sourceTree = "<group>"; };
 		2D96307028538C6B0091E439 /* PotpourriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotpourriUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D96307D2853988B0091E439 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		2D96307E285398990091E439 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,8 @@
 		2D96304928538C6B0091E439 /* Potpourri */ = {
 			isa = PBXGroup;
 			children = (
-				2D96304A28538C6B0091E439 /* AppDelegate.swift */,
-				2D96304C28538C6B0091E439 /* SceneDelegate.swift */,
+				2D9630802853995F0091E439 /* Application */,
 				2D96304E28538C6B0091E439 /* ViewController.swift */,
-				2D96305628538C6B0091E439 /* Assets.xcassets */,
 				2D96305828538C6B0091E439 /* LaunchScreen.storyboard */,
 				2D96305B28538C6B0091E439 /* Info.plist */,
 				2D96305328538C6B0091E439 /* Potpourri.xcdatamodeld */,
@@ -125,6 +125,34 @@
 				2D96307028538C6B0091E439 /* PotpourriUITestsLaunchTests.swift */,
 			);
 			path = PotpourriUITests;
+			sourceTree = "<group>";
+		};
+		2D96307F2853994E0091E439 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				2D96307D2853988B0091E439 /* Debug.xcconfig */,
+				2D96307E285398990091E439 /* Production.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		2D9630802853995F0091E439 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2D9630812853997A0091E439 /* Resources */,
+				2D96307F2853994E0091E439 /* Configuration */,
+				2D96304A28538C6B0091E439 /* AppDelegate.swift */,
+				2D96304C28538C6B0091E439 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		2D9630812853997A0091E439 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D96305628538C6B0091E439 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +338,7 @@
 /* Begin XCBuildConfiguration section */
 		2D96307228538C6B0091E439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D96307D2853988B0091E439 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -370,6 +399,7 @@
 		};
 		2D96307328538C6B0091E439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D96307E285398990091E439 /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
