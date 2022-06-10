@@ -23,6 +23,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window = window
         self.window!.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
+        
+        let secret = try? Secrets.load()
+        print(secret?.apiKey ?? "No secrets found")
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

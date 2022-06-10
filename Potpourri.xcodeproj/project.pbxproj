@@ -16,6 +16,9 @@
 		2D96306528538C6B0091E439 /* PotpourriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96306428538C6B0091E439 /* PotpourriTests.swift */; };
 		2D96306F28538C6B0091E439 /* PotpourriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96306E28538C6B0091E439 /* PotpourriUITests.swift */; };
 		2D96307128538C6B0091E439 /* PotpourriUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96307028538C6B0091E439 /* PotpourriUITestsLaunchTests.swift */; };
+		2D9630832853C8CF0091E439 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9630822853C8CF0091E439 /* Secrets.swift */; };
+		2D96308A2853CB1E0091E439 /* secrets.json.sample in Resources */ = {isa = PBXBuildFile; fileRef = 2D9630892853CB1E0091E439 /* secrets.json.sample */; };
+		2D96308C2853CB620091E439 /* secrets.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D96308B2853CB620091E439 /* secrets.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		2D96307028538C6B0091E439 /* PotpourriUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotpourriUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2D96307D2853988B0091E439 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		2D96307E285398990091E439 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		2D9630822853C8CF0091E439 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		2D9630892853CB1E0091E439 /* secrets.json.sample */ = {isa = PBXFileReference; lastKnownFileType = text; path = secrets.json.sample; sourceTree = "<group>"; };
+		2D96308B2853CB620091E439 /* secrets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = secrets.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,7 @@
 		2D9630802853995F0091E439 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				2D9630842853C9550091E439 /* Secrets */,
 				2D9630812853997A0091E439 /* Resources */,
 				2D96307F2853994E0091E439 /* Configuration */,
 				2D96304A28538C6B0091E439 /* AppDelegate.swift */,
@@ -153,6 +160,16 @@
 				2D96305628538C6B0091E439 /* Assets.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		2D9630842853C9550091E439 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				2D9630822853C8CF0091E439 /* Secrets.swift */,
+				2D9630892853CB1E0091E439 /* secrets.json.sample */,
+				2D96308B2853CB620091E439 /* secrets.json */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D96305A28538C6B0091E439 /* LaunchScreen.storyboard in Resources */,
+				2D96308C2853CB620091E439 /* secrets.json in Resources */,
+				2D96308A2853CB1E0091E439 /* secrets.json.sample in Resources */,
 				2D96305728538C6B0091E439 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D96304F28538C6B0091E439 /* ViewController.swift in Sources */,
+				2D9630832853C8CF0091E439 /* Secrets.swift in Sources */,
 				2D96304B28538C6B0091E439 /* AppDelegate.swift in Sources */,
 				2D96305528538C6B0091E439 /* Potpourri.xcdatamodeld in Sources */,
 				2D96304D28538C6B0091E439 /* SceneDelegate.swift in Sources */,
