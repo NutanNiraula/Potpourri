@@ -22,6 +22,7 @@
 		2D9630922855DC470091E439 /* UIKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9630912855DC470091E439 /* UIKitViewController.swift */; };
 		2D9630942855DF3D0091E439 /* MainSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9630932855DF3D0091E439 /* MainSwiftUIView.swift */; };
 		2D96309C2855E1A20091E439 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D96309B2855E1A20091E439 /* SnapKit */; };
+		2D96309E2855E23E0091E439 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96309D2855E23E0091E439 /* DraggableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		2D96308B2853CB620091E439 /* secrets.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = secrets.json; sourceTree = "<group>"; };
 		2D9630912855DC470091E439 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		2D9630932855DF3D0091E439 /* MainSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSwiftUIView.swift; sourceTree = "<group>"; };
+		2D96309D2855E23E0091E439 /* DraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				2D9630932855DF3D0091E439 /* MainSwiftUIView.swift */,
+				2D96309D2855E23E0091E439 /* DraggableView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			files = (
 				2D96304F28538C6B0091E439 /* ViewController.swift in Sources */,
 				2D9630832853C8CF0091E439 /* Secrets.swift in Sources */,
+				2D96309E2855E23E0091E439 /* DraggableView.swift in Sources */,
 				2D9630942855DF3D0091E439 /* MainSwiftUIView.swift in Sources */,
 				2D96304B28538C6B0091E439 /* AppDelegate.swift in Sources */,
 				2D96305528538C6B0091E439 /* Potpourri.xcdatamodeld in Sources */,

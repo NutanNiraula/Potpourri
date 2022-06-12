@@ -10,6 +10,13 @@ import SwiftUI
 struct MainSwiftUIView: View {
     var body: some View {
         Text("SwiftUI")
+        NavigationLink("Draggable View Test") {
+            HStack {
+                DraggableView()
+                DraggableView()
+                DraggableView()
+            }
+        }
     }
 }
 
