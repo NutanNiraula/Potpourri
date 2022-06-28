@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8911FB286A128A00925170 /* MetaballView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8911FA286A128A00925170 /* MetaballView.swift */; };
 		2D96304B28538C6B0091E439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96304A28538C6B0091E439 /* AppDelegate.swift */; };
 		2D96304D28538C6B0091E439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96304C28538C6B0091E439 /* SceneDelegate.swift */; };
 		2D96304F28538C6B0091E439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96304E28538C6B0091E439 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D8911FA286A128A00925170 /* MetaballView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaballView.swift; sourceTree = "<group>"; };
 		2D96304728538C6B0091E439 /* Potpourri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Potpourri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D96304A28538C6B0091E439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D96304C28538C6B0091E439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			children = (
 				2D9630932855DF3D0091E439 /* MainSwiftUIView.swift */,
 				2D96309D2855E23E0091E439 /* DraggableView.swift */,
+				2D8911FA286A128A00925170 /* MetaballView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				2D9630832853C8CF0091E439 /* Secrets.swift in Sources */,
 				2D96309E2855E23E0091E439 /* DraggableView.swift in Sources */,
 				2D9630942855DF3D0091E439 /* MainSwiftUIView.swift in Sources */,
+				2D8911FB286A128A00925170 /* MetaballView.swift in Sources */,
 				2D96304B28538C6B0091E439 /* AppDelegate.swift in Sources */,
 				2D96305528538C6B0091E439 /* Potpourri.xcdatamodeld in Sources */,
 				2D96304D28538C6B0091E439 /* SceneDelegate.swift in Sources */,
