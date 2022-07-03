@@ -24,6 +24,7 @@
 		2D9630942855DF3D0091E439 /* MainSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9630932855DF3D0091E439 /* MainSwiftUIView.swift */; };
 		2D96309C2855E1A20091E439 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2D96309B2855E1A20091E439 /* SnapKit */; };
 		2D96309E2855E23E0091E439 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D96309D2855E23E0091E439 /* DraggableView.swift */; };
+		2DA9A0012871851D00770213 /* MetaballMorphableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA9A0002871851D00770213 /* MetaballMorphableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		2D9630912855DC470091E439 /* UIKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitViewController.swift; sourceTree = "<group>"; };
 		2D9630932855DF3D0091E439 /* MainSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSwiftUIView.swift; sourceTree = "<group>"; };
 		2D96309D2855E23E0091E439 /* DraggableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		2DA9A0002871851D00770213 /* MetaballMorphableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaballMorphableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				2D9630932855DF3D0091E439 /* MainSwiftUIView.swift */,
 				2D96309D2855E23E0091E439 /* DraggableView.swift */,
 				2D8911FA286A128A00925170 /* MetaballView.swift */,
+				2DA9A0002871851D00770213 /* MetaballMorphableView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 				2D96304F28538C6B0091E439 /* ViewController.swift in Sources */,
 				2D9630832853C8CF0091E439 /* Secrets.swift in Sources */,
 				2D96309E2855E23E0091E439 /* DraggableView.swift in Sources */,
+				2DA9A0012871851D00770213 /* MetaballMorphableView.swift in Sources */,
 				2D9630942855DF3D0091E439 /* MainSwiftUIView.swift in Sources */,
 				2D8911FB286A128A00925170 /* MetaballView.swift in Sources */,
 				2D96304B28538C6B0091E439 /* AppDelegate.swift in Sources */,

@@ -16,9 +16,6 @@ struct MetaballView: View {
 
     @State
     var radius: Double = 15
-    
-    @State
-    var isCircle: Bool = true
 
     var body: some View {
         VStack(alignment: .leading) {
@@ -55,10 +52,6 @@ struct MetaballView: View {
 
                 Text("Radius")
                 Slider(value: $radius, in: 0 ... 30)
-                
-                Button("toggle") {
-                    isCircle.toggle()
-                }
             }
 
         }
